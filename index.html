@@ -11,7 +11,8 @@
 <body>
     <header>
         <div id="header1">
-
+            <img src="" alt="">
+            <a href="#">Home</a>
         </div>
         <div id="header2">
             <a id="img1" href="#">
@@ -30,28 +31,57 @@
 
 
         <div id="header3">
-
-            <a href="#">
-                EXAM CENTRE
-            </a>
+            <div>
+                <span>
+                    <strong  style="color: orangered;">EXAM</strong>
+                    <strong  style="color: green;">CENTRE</strong>
+                </span>
+                <a href="#">
+                    LOGIN
+                </a>
+            </div>
         </div>
     </header>
 
 
     <section>
         <div id="container">
-            hello
             <div id="inside-container">
-                hello
                 <div class="box" id="box1">
                     <div class="head">
                         "EXAM CENTRE"<strong> LOGIN</strong>
                     </div>
                     <div class="below">
-                        <label for="name">Username (Email/Mobile/CentreID)</label>
-                        <input type="text">
+                        <div>
+                            <label for="name">Username (Email/Mobile/CentreID)
+                                <span style="color: red;">*</span>
+                            </label>
+                            <br>
+                            <input type="text" placeholder="Email/Mobile/CentreID">
+                        </div>
+                        <div>
+                            <label for="password">Password
+                                <span style="color: red;">*</span>
+                            </label>
+                            <br>
+                            <input type="password" placeholder="enter Password">
+                        </div>
+                        <div>
+                            <label for="catchpa">Catchpa 
+                                <span style="color: red;">*</span>
+                            </label>
+                            <br>
+                            <img src="./images/GetCaptchaImage.png" alt="catchpa">
+                            <a href="#"><b>REFRESH</b></a>
+                            <input type="text" placeholder="enter catchpa">
+
+                            <button><b>LOGIN</b></button>
+                        </div>
                     </div>
                 </div>
+
+
+
                 <div class="box" id="box2">
                     <div class="head">
                         <strong>HELP LINE</strong>

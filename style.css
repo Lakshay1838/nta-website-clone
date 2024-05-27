@@ -3,12 +3,17 @@
     padding: 0;
 }
 #header1{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 20px;
+    background-color: #286090;
+}
+#header1 a{
+    margin-left: 1169px;
+    text-decoration: none;
 }
 #header2{
-    border: 3px solid black;
-    
+    /* border: 3px solid black; */
+    padding: 10px 5px;
 }
 #header2 a{
     /* margin: 0px 10px 20px 0px; */
@@ -34,38 +39,81 @@
 
 
 #header3{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 30px ;
 }
-#header3 a{
+#header3 div{
+    /* display: inline-block; */
+    width: 70%;
+    margin: auto;
+}
+#header3 div span{
+    font-size: 24px;
+    font-weight: 700;
+}
+#header3 div a{
     padding: 40px ;
-    margin-left: 1110px;
+    /* margin-left: 1110px;47 */
+    margin-left: 535px;
     font-size: 21px;
+    text-decoration: none;
+    /* margin-right: 0px; */
 }
 
 
 #container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 #inside-container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 70%;
     margin: auto;
 }
 
 .box{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 30%;
     display: inline-block;
+    border: 1px solid black;
 }
 .head{
     text-align: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 10px;
+    background-color: #286090;
+    color: white    ;
 }
 #box1{
 
 }
 #box2{
 
+}
+
+
+.below div{
+    padding: 10px;
+}
+.below div input{
+    margin: 8px;
+    padding: 8px 38px;
+}
+.below div img{
+    width: 80%;
+    padding: 10px;
+}
+.below div a{
+    text-decoration: none;
+    background-color: darkgoldenrod;
+    /* font-weight: 300; */
+    padding: 4px 10px;
+    margin-left: 8px;
+    color: white;
+}
+.below div button{
+    padding: 4px 8px;
+    margin: 8px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
 }
